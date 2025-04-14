@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p align="center">
-  <img src="images/under_construction_compressed.jpg" width="300" alt="Under_Construction">
+  <img src="images/pp.jpg" width="300" alt="Under_Construction">
 </p>
 
 <p align="center">
