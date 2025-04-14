@@ -1,25 +1,32 @@
-<li>
-  <div style="margin-bottom: 1em;">
-    <strong>{{ post.title }}</strong><br/>
+<div style="margin-bottom: 1.5em;">
+  <div style="font-weight: 600; font-size: 1rem; margin-bottom: 0.2em;">
+    {{ post.title }}
+  </div>
 
+  <div style="font-size: 0.95rem; color: #555;">
+    {% if post.date %}
+      ({{ post.date | date: "%Y" }})
+    {% endif %}
     {% if post.authors %}
-      <span style="font-style: italic;">{{ post.authors }}</span><br/>
+      {{ post.authors }}
     {% endif %}
-
     {% if post.venue %}
-      {{ post.venue }}, {{ post.date | date: "%Y" }}
-    {% endif %}
-
-    {% if post.paperurl %}
-      <br/><a href="{{ post.paperurl }}" target="_blank">🔗 Link to paper</a>
-    {% endif %}
-
-    {% if post.doi %}
-      <br/><a href="https://doi.org/{{ post.doi }}" target="_blank">📄 DOI</a>
-    {% endif %}
-
-    {% if post.hal %}
-      <br/><a href="{{ post.hal }}" target="_blank">📥 HAL</a>
+      <span style="font-style: italic;">— {{ post.venue }}</span>
     {% endif %}
   </div>
-</li>
+
+  <div style="font-size: 0.9rem; margin-top: 0.3em;">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" target="_blank">📄 Paper</a>
+    {% endif %}
+    {% if post.doi %}
+      · <a href="https://doi.org/{{ post.doi }}" target="_blank">DOI</a>
+    {% endif %}
+    {% if post.hal %}
+      · <a href="{{ post.hal }}" target="_blank">HAL</a>
+    {% endif %}
+    {% if post.preprinturl %}
+      · <a href="{{ post.preprinturl }}" target="_blank">Preprint</a>
+    {% endif %}
+  </div>
+</div>
