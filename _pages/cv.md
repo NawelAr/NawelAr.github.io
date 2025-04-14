@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 <p align="center">
-  <img src="/images/under_construction.png" width="300" alt="Under Construction">
+  <img src="/images/under_construction_compressed.png" width="300" alt="Under Construction">
 </p>
 
 <p align="center">
-  <em>Full CV coming soon!</em>
+  <em>Full CV coming soon </em>
 </p>
