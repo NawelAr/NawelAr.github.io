@@ -4,20 +4,20 @@
   </div>
 
   <div style="font-size: 0.95rem; color: #555;">
-    {% if post.date %}
-      ({{ post.date | date: "%Y" }})
-    {% endif %}
     {% if post.authors %}
       {{ post.authors }}
     {% endif %}
     {% if post.venue %}
-      <span style="font-style: italic;">— {{ post.venue }}</span>
+      <span style="font-style: italic;"> — {{ post.venue }}</span>
+    {% endif %}
+    {% if post.date %}
+      , {{ post.date | date: "%Y" }}
     {% endif %}
   </div>
 
   <div style="font-size: 0.9rem; margin-top: 0.3em;">
     {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank">📄 Paper</a>
+      <a href="{{ post.paperurl }}" target="_blank">Link</a>
     {% endif %}
     {% if post.doi %}
       · <a href="https://doi.org/{{ post.doi }}" target="_blank">DOI</a>
