@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : #"Nawel Arab"
+title                    : "      "
 title_separator          : "-"
 name                     : &name "Nawel Arab"
 description              : &description "PhD student in inverse problems, signal processing, and state-space model. "
@@ -26,7 +26,7 @@ author:
   name             : "Nawel Arab"
   pronouns         : # example: "she/her"  
   bio              : "PhD student at École Normale Supérieure Paris-Saclay, working on dynamic imaging."
-  location         : "X86 (but I'm never there)"
+  location         : #"X86 (but I'm never there)"
   employer         : "SATIE,ENS Paris-Saclay"
   email            : "nawel.arab@ens-paris-saclay.fr" 
   uri              : # URL
