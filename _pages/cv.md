@@ -12,7 +12,7 @@ redirect_from:
 </p>
 
 <p align="center">
-  <em>Full CV coming soon </em>
+  <em>Full CV coming soon ! </em>
 </p>
 
 
