@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nawelar.github.io/sitemap.xml
