@@ -1,3 +1,26 @@
-<div style="font-size: 0.95rem; color: #555;">
-  {{ post.venue }}
+<div style="margin-bottom: 1.5em;">
+  <div style="font-weight: 600; font-size: 1rem;">
+    {{ post.title }}
+  </div>
+
+  <div style="font-size: 0.95rem; color: #555;">
+    {{ post.venue }}
+  </div>
+
+  {% if post.duration %}
+  <div style="font-size: 0.9rem;">
+    <strong>Dates:</strong> {{ post.duration }}
+  </div>
+  {% endif %}
+
+  {% if post.courses %}
+  <div style="font-size: 0.9rem;">
+    <strong>Courses:</strong>
+    <ul style="margin-top: 0.3em;">
+      {% for course in post.courses %}
+        <li>{{ course }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
 </div>
