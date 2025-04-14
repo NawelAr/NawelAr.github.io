@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Nawel Arab"
 title_separator          : "-"
 name                     : &name "Nawel Arab"
-description              : &description "PhD student in inverse problems, signal processing, and ... "
+description              : &description "PhD student in inverse problems, signal processing, and state-space model. "
 url                      : https://NawelAr.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "NawelAr/NawelAr.github.io"
@@ -25,11 +25,12 @@ author:
   avatar           : "profile.png"
   name             : "Nawel Arab"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student at ENS Paris-Saclay, working on dynamic imaging and ."
+  bio              : "PhD student at École Normale Supérieure Paris-Saclay, working on dynamic imaging."
   location         : "Earth"
-  employer         : "SATIE, École Normale Supérieure Paris-Saclay"
-  uri              : # URL
+  employer         : "SATIE,ENS Paris-Saclay"
   email            : "nawel.arab@ens-paris-saclay.fr" 
+  uri              : # URL
+
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
