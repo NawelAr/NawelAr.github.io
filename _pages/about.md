@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+**📡 Turning chaos into images**
 
 I am a third-year PhD student at ENS Paris-Saclay, under the supervision of Pascal Larzabal, [Mohammed Nabil El Korso](https://l2s.centralesupelec.fr/en/u/el-korso-mohammed-nabil/) and Isabelle Vin. 
 
