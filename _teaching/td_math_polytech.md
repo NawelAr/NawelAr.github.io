@@ -3,7 +3,7 @@ title: "Teaching Assistant — Mathematics"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-teaching-assistant/
-venue: "Université Paris-Saclay – Mathematics"
+venue: "Université Paris-Saclay"
 date: 2022-10-01
 location: "France"
 courses: 
