@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant — MATH101 & MATH107"
+title: "Teaching Assistant — Mathematics"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-teaching-assistant/
